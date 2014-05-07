@@ -1,0 +1,21 @@
+--- old.c	2014-05-07 16:31:40.577313508 +0800
++++ new.c	2014-05-07 16:32:25.025313084 +0800
+@@ -1,17 +1,14 @@
+ #include<stdio.h>
+ #include<stdlib.h>
+ 
+-#define BUFF_LINE 300
++#define BUFF_LINE 30000
+ 
+ int main()
+ {
+ 	char FileCont[BUFF_LINE];
+ 	char* str=FileCont;
+-	int *ptr=(int *)0;
+ 	int couter=0;
+ 	FILE* fp;
+-	main();
+-	*ptr=100;
+ 	if ( (fp = fopen( "she.c", "r" ) ) == NULL)
+ 	{
+ 		printf( "File could not be opened\n" );
